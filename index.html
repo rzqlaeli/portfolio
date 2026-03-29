@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome 6 (yang paling baru) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!--Header/Navigation-->
+    <header class="header">
+        <nav class="navbar" ">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Hamburger Menu (untuk mobile nanti)-->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!--Hero Section (Beranda)-->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <!--teks content-->
+            <div class="hero-content">
+            <!--<span class="hero-hello">Hallo, aku</span>-->
+                <!--nama highlight-->
+                <h1 class="hero-title">
+                    Rizqi <span class="highlight"> Laeli</span>
+                </h1>
+
+                <!-- title dengan efek typing (css) -->
+                <h2 class="hero-subtitle">I'm a <span class="typed-text"></span></h2>
+                <!-- Deskripsi -->
+                <p class="hero-description">
+            <strong>Junior Frontend Developer</strong> dengan fokus pada pembuatan <strong>tampilan web yang clean dan user-friendly</strong>. Terbiasa mengerjakan <strong>pengembangan web</strong>, berkomunikasi dengan <strong>klien</strong>, serta mengelola <strong>konten digital</strong> secara terstruktur.
+            </p>
+                <!-- CTA Buttons-->
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+                    <a href="#projects" class="btn btn-secondary">Lihat Project</a>
+                </div>
+            </div>
+
+            <!-- Kanan foto-->
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="img/niki.jpg" alt="Rizqi Laeli" class="profile-img">
+                    <!-- element dekoratif -->
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Me-->
+    <section id="about" class="about">
+        <div class="container">
+            <!-- bagian kiri foto/ilustrasi -->
+            <div class="about-left">
+                <div class="about-image-wrapper">
+                    <img src="img/niki2.jpg" alt="Rizqi Laeli" class="about-image">
+                    <!-- elemen dekoratif -->
+                    <div class="about-shape about-shape-1"></div>
+                    <div class="about-shape about-shape-2"></div>
+                    <!-- pengalaman badge 
+                    <div class="experience-badge">
+                        <span class="exp-number">1+</span>
+                        <span class="exp-text">Tahun Pengalaman</span>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- bagian kanan -->
+            <div class="about-right">
+                <!-- badge kecil -->
+                <span class="about-badge">👋 Tentang Aku</span>
+
+                <!--heading utama-->
+                <h2 class="about-title">
+                    Junior Frontend Developer <br>
+                    yang <span class="highlight">kreatif</span> dan <span class="highlight">
+                    detail-oriented</span>
+                </h2>
+
+                <!-- Deskripsi singkat (branding)-->
+                <p class="about-description">
+                    Halo! Aku <strong>Rizqi Laeli</strong>, seorang Junior Frontend Developer.
+                    Aku memiliki passion dalam menciptakan website yang tidak hanya menarik secara visual,
+                    tapi juga fungsional dan user-friendly.
+                </p>
+
+                <p class="about-description">
+                    Dengan latar belakang di <strong>pengembangan web</strong>
+                    dan <strong>komunikasi klien</strong>, aku mampu menjebatani kebutuhan
+                    teknis dengan ekspektasi klien. Aku percaya bahwa kode yang baik
+                    adalah kode yang bisa dipahami manusia, bukan hanya mesin.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--Skills-->
+    <div id="skills" class="skills">
+        <div class="container">
+            <!--header section-->
+            <div class="section-header">
+                <span class="section-badge">⚡ Keahlian Aku</span>
+                <h2 class="section-title">Skills & <span class="highlight">Tools</span> </h2>
+                <p class="section-description">
+                    Berikut adalah teknologi, tools, dan software yang aku kuasai untuk menciptakan
+                    website yang modern dan fungsional.
+                </p>
+            </div>
+            <!--skills content-->
+            <div class="skills-content">
+                <!--hardskill: technical skills-->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code category-icon">
+                            Technical Skills
+                        </i>
+                    </h3>
+
+                    <div class="skills-grid">
+                        <!--skill 1 html-->
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <i class="fab fa-html5 skill-icon" style="color: #e34c26;"></i>
+                                    <span>html5</span>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%; background: #e34c26;"></div>
+                            </div>
+                            <p class="skill-description">Struktur web semantik, aksebilitas, SEO dasar</p>
+                        </div>
+                        <!--skill2 css-->
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <i class="fab fa-css3-alt skill-icon" style="color: #264de4;"></i>
+                                    <span>CSS3</span>
+                                </div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%; background: #264de4;"></div>
+                            </div>
+                            <p class="skill-description">Flexbox, Grid, Animasi, Responsive Design</p>
+                        </div>
+                        <!--skill3-->
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <i class="fab fa-js skill-icon" style="color: #f0db4f;"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%; background: #f0db4f;"></div>
+                            </div>
+                            <p class="skill-description">ES6+, DOM Manipulation, Fetch API</p>
+                        </div>
+                        <!--SKILL4-->
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <i class="fab fa-php skill-icon" style="color: #777bb3;"></i>
+                                    <span>PHP</span>
+                                </div>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 70%; background: #777bb3;"></div>
+                            </div>
+                            <p class="skill-description">Prosedural, MySQL Integration, Baasic OOP</p>
+                        </div>
+                        <!--skill5-->
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <div class="skill-name">
+                                    <i class="fab fa-database skill-icon" style="color: #00758f;"></i>
+                                    <span>MySQL</span>
+                                </div>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 70%; background: #00758f;"></div>
+                            </div>
+                            <p class="skill-description">Database Design, Query, Joins, PHP Integration</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- tools-->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools category-icon">
+                            Tools & Software
+                        </i>
+                    </h3>
+
+                    <div class="tools-grid">
+                        <!--tools 1-->
+                        <div class="tool-card">
+                            <div class="tool-icon-wrapper">
+                                <i class="fas fa-code tool-icon" style="color: #007acc;"></i>
+                            </div>
+                            <h4>VS Code</h4>
+                            <p>Code Editor</p>
+                            <div class="tool-level">Advanced</div>
+                        </div>
+                        <!--tools2-->
+                        <div class="tool-card">
+                            <div class="tool-icon-wrapper">
+                                <i class="fab fa-git-alt tool-icon" style="color: #f34f29;"></i>
+                            </div>
+                            <h4>Git</h4>
+                            <p>Version Control</p>
+                            <div class="tool-level">Beginner</div>
+                        </div>
+                        <!--tools3-->
+                        <div class="tool-card">
+                            <div class="tool-icon-wrapper">
+                                <i class="fab fa-github tool-icon" style="color: #333;"></i>
+                            </div>
+                            <h4>Github</h4>
+                            <p>Repository</p>
+                            <div class="tool-level">Intermediate</div>
+                        </div>
+                        <!--tools4-->
+                        <div class="tool-card">
+                            <div class="tool-icon-wrapper">
+                                <i class="fab fa-figma tool-icon" style="color: #f24e1e;"></i>
+                            </div>
+                            <h4>Figma</h4>
+                            <p>UI/UX Design</p>
+                            <div class="tool-level">Intermediate</div>
+                        </div>
+                        <!--tools5-->
+                        <div class="tool-card">
+                            <div class="tool-icon-wrapper">
+                                <i class="fas fa-paint-brush tool-icon" style="color: #00c4cc"></i>
+                            </div>
+                            <h4>Canva</h4>
+                            <p>Graphic Design</p>
+                            <div class="tool-level">Advanced</div>
+                        </div>
+                        <!--tools6-->
+                        <div class="tool-card">
+                            <div class="tool-icon-wrapper">
+                                <i class="fas fa-server tool-icon" style="color: #fb7a24;"></i>
+                            </div>
+                            <h4>XAMPP</h4>
+                            <p>Local Server</p>
+                            <div class="tool-level">Intermediate</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--softskill-->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-heart category-icon">
+                            Soft Skills
+                        </i>
+                    </h3>
+                </div>
+
+                <div class="soft-skills-grid">
+                    <span class="soft-skill-tag">Team Collaboration</span>
+                    <span class="soft-skill-tag">Problem Solving</span>
+                    <span class="soft-skill-tag">Time Management</span>
+                    <span class="soft-skill-tag">Komunikasi</span>
+                    <span class="soft-skill-tag">Adaptability</span>
+                    <span class="soft-skill-tag">Detail Oriented</span>
+                    <span class="soft-skill-tag">Kreatif</span>
+                    <span class="soft-skill-tag">Fast Learner</span>
+                </div>
+            </div>
+        </div>
+        <!--stats section-->
+    <!-- <div class="stats-section">
+        <div class="stat-item">
+            <span class="stat-number" data-target="10">0</span>
+            <span class="stat-labek">Project Selesai</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" data-target="6">0</span>
+            <span class="stat-labek">Tools Dikuasai</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" data-target="500">0</span>
+            <span class="stat-labek">Jam Coding</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" data-target="10">0</span>
+            <span class="stat-labek">Kopi ☕</span>
+        </div>
+    </div>
+</div> -->
+
+    </section>
+    <!--Projects-->
+    <section id="projects" class="projects">
+        <div class="container">
+            <!--buat headeer-->
+            <div class="section-header">
+                <span class="section-badge">💼 My Work</span>
+                <h2 class="section-title">Recent <span class="highlight">Projects</span></h2>
+                <p class="section-description">
+                    Berikut adalah project-project yang pernah aku kerjakan, 
+                    dari tugas kuliah, PKL, hingga project pribadi.
+                </p>
+            </div>
+
+            <!--project grid-->
+            <div class="projects-grid">
+                <!--project 1-->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/kemenag.png" alt="Kemenag Project">
+                        <div class="project overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/rzqlaeli/web-kemenag" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="https://web-kemenag.vercel.app/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Sistem Informasi Kemenag</h3>
+                        <p class="project-description">
+                            Website administrasi untuk Kementerian Agama. Dibuat saat PKL, 
+                            menangani data pegawai, jadwal, dan dokumentasi kegiatan.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">BOOTSTRAP</span>
+                            <span class="tech-tag">JAVASCRIPT</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">
+                                <i class="far fa-calendar"></i> 2024
+                            </span>
+                            <span class="project-type">
+                                <i class="fas fa-briefcase"></i>PKL Project
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--project 2-->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/3498db/ffffff?text=Kemenag+Web" alt="Pegawai App">
+                        <div class="project overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/username/kemenag-web" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Aplikasi Web Pegawai</h3>
+                        <p class="project-description">
+                            Sistem manajemen pegawai dengan fitur absensi, cuti, 
+                            dan penggajian. Dilengkapi dengan laporan dan export PDF.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">BOOTSTRAP</span>
+                            <span class="tech-tag">JAVASCRIPT</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">
+                                <i class="far fa-calendar"></i> 2024
+                            </span>
+                            <span class="project-type">
+                                <i class="fas fa-briefcase"></i>PKL Project
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--project 3-->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/studio.png" alt="Bank Project">
+                        <div class="project overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/username/kemenag-web" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Sistem Informasi Bank Mini</h3>
+                        <p class="project-description">
+                            Aplikasi perbankan sederhana untuk tugas kuliah. 
+                            Fitur: buat rekening, transfer, tarik tunai, dan history transaksi.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">JAVASCRIPT</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">
+                                <i class="far fa-calendar"></i> 2023
+                            </span>
+                            <span class="project-type">
+                                <i class="fas fa-briefcase"></i>Tugas Kuliah
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!--project 4-->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/studio.png" alt="Desain Project">
+                        <div class="project overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/rzqlaeli/BINS-Studio" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="https://bins-studio.vercel.app/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Desain Interior & Exterior</h3>
+                        <p class="project-description">
+                            Website portofolio desain dengan fitur pemesanan. 
+                            User bisa lihat portofolio, pilih desain, dan langsung 
+                            terhubung ke WhatsApp untuk konsultasi.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WA API</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">JAVASCRIPT</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-date">
+                                <i class="far fa-calendar"></i> 2023
+                            </span>
+                            <span class="project-type">
+                                <i class="fas fa-briefcase"></i>Tugas Kuliah
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- CTA SECTION - Link ke GitHub semua project -->
+        <div class="projects-cta">
+            <p>Lihat semua project aku di GitHub</p>
+            <a href="https://github.com/rzqlaeli" target="_blank" class="btn btn-primary">
+                <i class="fab fa-github"></i> GitHub Portfolio
+            </a>
+        </div>
+        </div>
+    </section>
+    <!--Contact-->
+    <section id="contact" class="contact">
+        <div class="container">
+            <!--for header-->
+            <div class="section-header">
+                <span class="section-badge">📬 Get In Touch</span>
+                <h2 class="section-title">Contact <span class="highlight">Me</span></h2>
+            </div>
+
+            <!--isi konten-->
+            <div class="contact-container">
+                <!--kiri-->
+                <div class="contact-left">
+                    <h3 class="info-title">Mari Terhubung !</h3>
+                    <p class="info-description">
+                        Saya akan senang mendengar dari Anda. Apapun itu - pertanyaan, 
+                        project kolaborasi, atau hanya sekedar menyapa.
+                    </p>
+                    <!--info cards-->
+                    <div class="info-cards">
+                        <!--email-->
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-detail">
+                                <h4>Email</h4>
+                                <a href="mailto:rizqi.laeli@email.com" class="quick-link">
+                                rizqi.laeli@email.com
+                            </a>
+                                <p class="response-badge">✉️ Usually replies within 24 hours</p>
+                            </div>
+                        </div>
+                        <!--phone-->
+                        <div class="info-card whatsapp-card">
+                            <div class="card-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="card-detail">
+                                <h4>whatsApp</h4>
+                                <a href="https://wa.me/6289509758587" target="_blank">+62 895-0975-8587</a>
+                                <p class="response-time">⚡ Fast response</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--social media-->
+                    <div class="social-media-section">
+                        <h4>Follow me on</h4>
+                        <div class="social-grid">
+                            <a href="https://github.com/rzqlaeli" target="_blank" class="social-item">
+                                <div class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="social-info">
+                                <span class="platform">GitHub</span>
+                                <span class="username">rzqlaeli</span>
+                            </div>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/rizqilaeli/" target="_blank" class="social-item">
+                                <div class="social-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="social-info">
+                                <span class="platform">LinkedIn</span>
+                                <span class="username">rizqilaeli</span>
+                            </div>
+                            </a>
+
+                            <a href="https://www.instagram.com/rzqlaelii" target="_blank" class="social-item">
+                                <div class="social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="social-info">
+                                <span class="platform">Instagram</span>
+                                <span class="username">rzqlaelii</span>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                    
+                 <!-- KANAN: Alternative Contact / Quick Connect -->
+            <div class="contact-right">
+                <!-- Availability Status -->
+                <div class="status-card">
+                    <div class="status-header">
+                        <div class="status-indicator"></div>
+                        <span class="status-text">Available for work</span>
+                    </div>
+                    <h3>Terbuka untuk berkolaborasi!</h3>
+                    <p>
+                        Aku lagi terbuka untuk freelance, full-time, atau project kolaborasi. 
+                        Kalau kamu punya ide atau project menarik, feel free untuk hubungi aku ya.
+                    </p>
+                </div>
+                <!--Lokasi-->
+                        <div class="info-card">
+                            <div class="card-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-detail">
+                                <h4>Lokasi</h4>
+                                <p>Banten, Indonesia</p>
+                                <p class="response-badge">🌍 Available for remote work</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="card-icon">
+                            <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="info-detail">
+                            <h4>Download CV</h4>
+                            <p>Lihat pengalaman lebih detail</p>
+                            <a href="#" class="quick-link" download>Download PDF</a>
+                            </div>
+                        </div>
+                
+                <!-- Quick Connect Cards -->
+                 <!--
+                <div class="quick-connect">
+                    <h4>Quick Connect</h4>
+                    <div class="quick-grid">
+                    -->
+                        <!-- Card: Via Email --> <!--
+                        <div class="quick-card">
+                            <i class="fas fa-envelope-open-text"></i>
+                            <h5>Email Me</h5>
+                            <p>Kirim pesan panjang lewat email</p>
+                            <a href="mailto:rizqi.laeli@email.com" class="quick-link">
+                                rizqi.laeli@email.com
+                            </a>
+                        </div> -->
+                        <!-- Card: Via WhatsApp --><!---
+                        <div class="quick-card">
+                            <i class="fab fa-whatsapp"></i>
+                            <h5>Chat on WhatsApp</h5>
+                            <p>Diskusi cepat via chat</p>
+                            <a href="https://wa.me/6289509758587" target="_blank" class="quick-link">
+                                +62 895-0975-8587
+                            </a>
+                        </div> -->
+                        <!-- Card: Schedule Meeting --> <!--
+                        <div class="quick-card">
+                            <i class="fas fa-calendar-alt"></i>
+                            <h5>Schedule Meeting</h5>
+                            <p>Atur jadwal diskusi online</p>
+                            <a href="#" class="quick-link">Pilih waktu →</a>
+                        </div> -->
+
+                        <!-- Card: Download CV --> <!--
+                        <div class="quick-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <h5>Download CV</h5>
+                            <p>Lihat pengalaman lebih detail</p>
+                            <a href="#" class="quick-link" download>Download PDF</a>
+                        </div>
+                    </div>
+                    </div>
+                -->
+
+                <!-- Response Time Info 
+                <div class="response-info">
+                    <div class="response-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Response time:</strong>
+                            <span>Within 24 hours for email, 2-3 hours for WhatsApp</span>
+                        </div>
+                    </div>
+                    <div class="response-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <strong>Timezone:</strong>
+                            <span>WIB (UTC+7) - Jakarta</span>
+                        </div>
+                    </div>
+                    </div> -->
+            </div>
+        </div>
+
+            </div>
+    </section>
+    <!--Footer-->
+    <!-- FOOTER SECTION -->
+<footer class="footer">
+    <div class="footer-container">
+        
+        <!-- FOOTER TOP - 4 KOLOM -->
+        <div class="footer-top">
+            
+            <!-- KOLOM 1: Brand & Description -->
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <a href="#home">RL</a>  <!-- Inisial atau nama -->
+                </div>
+                <p class="footer-description">
+                    Aku seorang <strong>Frontend Developer</strong> suka bikin website yang <strong>modern</strong>, 
+    <strong>responsif</strong>, dan <strong>user-friendly</strong>. Yuk kerja bareng buat 
+    mewujudkan ide digital kamu.
+                </p>
+                <div class="footer-cta">
+                    <a href="#contact" class="footer-btn">Mulai Kolaborasi</a>
+                </div>
+            </div>
+            
+            <!-- KOLOM 2: Quick Links -->
+            <div class="footer-col">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-chevron-right"></i> About Me</a></li>
+                    <li><a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a></li>
+                    <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- KOLOM 3: Services / Expertise -->
+            <div class="footer-col">
+                <h3 class="footer-title">My Expertise</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-code"></i> Frontend Development</li>
+                    <li><i class="fas fa-mobile-alt"></i> Responsive Design</li>
+                    <li><i class="fas fa-paint-brush"></i> UI/UX Design</li>
+                    <li><i class="fas fa-database"></i> Database Integration</li>
+                    <li><i class="fas fa-tools"></i> Website Maintenance</li>
+                </ul>
+            </div>
+            
+            <!-- KOLOM 4: Contact & Newsletter -->
+            <div class="footer-col">
+                <h3 class="footer-title">Stay Connected</h3>
+                <!-- Contact Info -->
+                <div class="footer-contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:rizqi.laeli@email.com">rizqi.laeli@email.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/6289509758587" target="_blank">+62 895-0975-8587</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Banten, Indonesia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FOOTER MIDDLE - Social Media & Stats -->
+        <div class="footer-middle">
+            <div class="footer-stats">
+                <div class="stat-item">
+                    <span class="stat-number">2+</span>
+                    <span class="stat-label">Projects</span>
+                </div> <!--
+                <div class="stat-item">
+                    <span class="stat-number">1+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div> -->
+                <div class="stat-item">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Tools Used</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Commitment</span>
+                </div>
+            </div>
+            
+            <div class="footer-social">
+                <a href="https://github.com/rzqlaeli" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/rizqilaeli" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://instagram.com/rzqlaelii" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:rizqi.laeli@email.com" class="social-icon">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- FOOTER BOTTOM - Copyright  -->
+        <div class="footer-bottom">
+            <div class="copyright">
+                &copy; 2026 <span class="highlight">Rizqi Laeli</span>. All rights reserved.
+            </div> <!---
+            <div class="footer-credit">
+                Designed with <i class="fas fa-heart" style="color: #e74c3c;"></i> by Rizqi
+            </div> -->
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+    
+</body>
+</html>
